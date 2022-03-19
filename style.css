@@ -1,0 +1,311 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/bg1 (2).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*navbar css*/
+.navbar {
+    background-color: white !important;
+   height: 80px;
+
+}
+.navbar-brand{font-family: 'Pacifico', cursive; color: #541f5c; font-size: 30px;}
+
+.logo {
+    width: 60px;
+    height: 50px;
+    
+    margin: 0px 0px 0px 50px;
+    border-radius: 10px;
+    
+}
+
+.navbar-nav {
+    padding: 0px 50px 0px 0px;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    margin: 0px 20px 0px 0px;
+}
+
+
+a.nav-link {
+    color: #541f5c !important;
+    transition: 0.2s;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+
+
+a.nav-link::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #541f5c;
+    transition: 0.2s;
+}
+
+a.nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-collapse {
+text-align: center;
+}
+
+.navbar-toggler { 
+    background-color:  #541f5c;
+    
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+/*slider css
+.carousel-caption{
+    animation: slide-up 2s;
+}
+@keyframes slide-up {
+    from{
+        opacity: 0.2;
+        line-height: 60px;
+    }
+    to{
+        opacity: 1;
+        line-height: 40px;
+    }
+}*/
+
+.section-one{
+    margin-top: 80px;
+}
+
+.img1 {
+    width: 100%;
+    height: 600px;
+}
+
+.slider-text1 {
+    font-size: 50px;
+    color: #541f5c;
+    font-family: 'Abril Fatface';
+    text-transform: uppercase;
+    }
+
+.slider-text2 {
+    font-size: 25px;
+    color: black;
+    }
+.btn-slider{
+    background-color: #541f5c; 
+    font-family: 'Abril Fatface'; 
+    color: white;
+    }
+/*welcome section css*/
+
+.welcome {
+    width: 50%;
+    color: #541f5c;
+    font-family: 'Abril Fatface';
+    margin: 10px 0px 0px 0px;
+    padding: 50px 0px 20px 0px;
+    
+}
+
+
+.section-second {
+    margin: 30px 0px 0px 0px;
+}
+
+
+/*galary*/
+.slide-gap{padding-left: 8px; }
+.img-group1{height:300px; width:400px; border-radius: 20px;}
+.galary{margin-top: 40px;}
+
+/*our pricing*/
+.marketing{margin-top: 30px;}
+.feature-name{    color: #541f5c;
+font-family: 'Abril Fatface';}
+.about-border3 {
+display: block;
+width: 80px;
+height: 4px;
+background: #541f5c;
+margin: 20px auto;
+align-items: center;
+}
+
+/* card css*/
+.cards-group {
+    padding: 20px 40px 20px 40px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.about-border {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #541f5c;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.card-body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.card-title {
+    color: #fdc303 !important;
+}
+
+.rs {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdc303 !important;
+}
+/* bottom card css*/
+.card-one {
+    margin: 20px 40px 30px 40px;
+}
+.card-detail {
+    color: #541f5c;
+    padding-top: 30px;
+    font-family: 'Abril Fatface';
+}
+.card-detail2{color: #541f5c;
+font-family: Arial, Helvetica, sans-serif;}
+.about-border2 {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #541f5c;
+    margin: 0px 0px 10px 5px;
+    align-items: left;
+}
+.four{margin-top: 60px;}
+
+/*footer css*/
+.footer{
+    background-color:rgb(255, 255, 255);
+    color: #541f5c;
+}
+
+/*contact page css*/
+.contact-title{color: #541f5c;}
+
+.wrapper {
+    width: 100%
+}
+
+.overlay {
+    width: 100%;
+    }
+
+.contact-us {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.contact-us h3,
+p {
+    color: black;
+}
+
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px;
+}
+
+.address span {
+    color: #541f5c;
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #541f5c;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px;
+}
+
+.forms {
+    padding: 20px;
+}
+
+.inputs input {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid rgb(209, 208, 208);
+}
+
+.inputs input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid  #541f5c;
+    box-shadow: none;
+}
+
+.inputs textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid rgb(209, 208, 208);
+    width: 100%;
+    resize: none;
+}
+
+.inputs textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid  #541f5c;
+    box-shadow: none;
+    resize: none;
+}
+
+.form-control {
+    padding: .375rem .25rem;
+}
+
+.btn {
+    background-color: #541f5c;
+    color: white;
+}
+.contact-page{margin-top: 130px;}
+
+/*map css*/
+.map {
+    padding: 0px 50px 0px 50px;
+}
+
+/*faqs css*/
+.faq-heading { 
+    color: white;}
+.faq { 
+    margin: 50px 0px 50px 20px;
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+
